@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <style>
+    .link{
+      text-decoration: none; 
+      color: #3498db;
+    }
+    .link:hover{
+        text-decoration:underline;
+    }
+</style>
+  <body>
+    <div class="container">
+      <form class="form" method="post" action="/login">
+        <h2>login user</h2>
+       
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" name="email" placeholder="Enter email" />
+        </div>
+        <div class="form-control">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" placeholder="Enter password" />
+        </div>
+        <div class="form-control">
+          <span><a href="/" class="link">sign up</a></span>
+        </div>
+        <button type="submit">login</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Validator</title>
+</head>
+<style>
+    .link{
+      text-decoration: none; 
+      color: #3498db;
+    }
+    .link:hover{
+        text-decoration:underline;
+    }
+</style>
+<body>
+    <div class="container">
+        <form action="/" method="post" class="form">
+            <h2>Register With Us</h2>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" name="username" placeholder="Enter username">
+                
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Enter email">
+               
+            </div>
+            <div class="form-control">
+                <label for="password">password</label>
+                <input type="password" name="password" placeholder="Enter password">
+               
+            </div>
+            <div class="form-control">
+                <label for="password2">Confirm Password</label>
+                <input type="password" name="confirm" placeholder="Enter password again">
+              
+            </div>
+            <span><a href="/login" class="link">login.</a></span>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
